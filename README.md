@@ -21,26 +21,35 @@ This Repo contains the infrastructure section of the CICD Pipeline project I'm g
 Check application section in this Repo : https://github.com/Ahmed-Ali-Elbaz/APP-REPO-FINAL
 
 
+## Installation
+
+Install  infrastructure with terraform
+
+```bash
+    # terraform init
+    # terraform apply
+```
+    
 ## Tools
 
 #### Terraform :
 
-```http
+
   - Provision the infrastructure as a code.
-```
+
 
 
 #### Kubernetes :
 
-```http
+
   - Where we will deploy Jenkins Master & Slave & helloworld app on it.
-```
+
 
 #### Jenkins :
 
-```http
+
   - Create CICD pipeline to build and push the image of our helloworld app and integrate our pipeline with Slack.
-```
+
 
 
 ## Terraform 
@@ -147,3 +156,7 @@ Check application section in this Repo : https://github.com/Ahmed-Ali-Elbaz/APP-
 ## Appendix
 
 Pipeline script will be in application section in this Repo : https://github.com/Ahmed-Ali-Elbaz/APP-REPO-FINAL
+
+## Feedback
+
+If you have any feedback, please reach out to me at ahmed.ali.elbaz.mohamed@gmail.com
