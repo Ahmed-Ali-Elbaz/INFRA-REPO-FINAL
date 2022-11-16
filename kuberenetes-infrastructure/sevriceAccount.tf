@@ -18,12 +18,3 @@ resource "google_project_iam_binding" "container-admin" {
 }   
 
 
-
-# resource "google_project_iam_custom_role" "my-custom-role" {
-#   project     = "wired-sol-367809"
-#   role_id     = "myCustomRole"
-#   title       = "My Custom Role"
-#   description = "A description"
-#   permissions = ["iam.roles.list", "iam.roles.create", "iam.roles.delete"]
-
-# }

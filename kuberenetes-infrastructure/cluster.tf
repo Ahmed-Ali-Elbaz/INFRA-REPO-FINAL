@@ -45,7 +45,6 @@ resource "google_container_cluster" "private-cluster" {
   master_authorized_networks_config {
     
     cidr_blocks {
-      # ${google_compute_instance.my-instance.network_interface.0.netwrk_ip/32}
       cidr_block = "${google_compute_subnetwork.management-subnet.ip_cidr_range}"
       display_name = "bastion-cidr"
     }
