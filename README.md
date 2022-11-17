@@ -153,6 +153,11 @@ Install  infrastructure with terraform
 
 ![image](https://drive.google.com/uc?export=view&id=1CzTbyCfnKH-Lcydpn0DfJMTpbfMIW3lc)
 
+## What can be improved upon?
+
+- I'm gonna improve terraform code to use moduleand integrate ansible with terraform and make ansible deploy jenkins yaml files on GKE Cluster
+- I will change add testing and code analysis stages to send reports to Sonarqube server & push the image to Nexus
+
 ## Appendix
 
 Pipeline script will be in application section in this Repo : https://github.com/Ahmed-Ali-Elbaz/APP-REPO-FINAL
