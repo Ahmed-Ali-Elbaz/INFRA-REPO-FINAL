@@ -156,7 +156,7 @@ Install  infrastructure with terraform
 ## What can be improved upon?
 
 - I'm gonna improve terraform code to use moduleand integrate ansible with terraform and make ansible deploy jenkins yaml files on GKE Cluster
-- I will change add testing and code analysis stages to send reports to Sonarqube server & push the image to Nexus
+- I will add testing and code analysis stages to send reports to Sonarqube server & push the image to Nexus
 
 ## Appendix
 
