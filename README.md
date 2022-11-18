@@ -80,9 +80,6 @@ Install  infrastructure with terraform
 
 ![image](https://drive.google.com/uc?export=view&id=17VzoOSv_8egeUgzN1X5jLMCU9dPNargd)
 
-7- Create a Service Account with Role "container.admin" which we will give it to our VM and Jenkins to Access our GKE Cluster
-
-![image](https://drive.google.com/uc?export=view&id=1tLv8yvnQtFKEfpnfJSFEzO0HaQ6VVOwz)
 
 7- Create a Service Account with Role "container.admin" which we will give it to our VM and Jenkins to Access our GKE Cluster
 
